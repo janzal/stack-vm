@@ -1,0 +1,12 @@
+{
+  "extensions": [
+    "./instruction-sets/basic-instruction-set",
+    "./instruction-sets/-core-instruction-set"
+  ],
+  "instructions": [
+    "push 10",
+    "push 1",
+    "sub",
+    "jmpneqz 1"
+  ]
+}
